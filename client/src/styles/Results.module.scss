@@ -1,0 +1,29 @@
+.root {
+  display: flex;
+
+  .list {
+    padding: 20px;
+    margin: 0 auto;
+
+    background-color: #2e2e2e;
+    border-radius: 8px;
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      list-style: none;
+
+      flex-direction: column;
+      li {
+        font-size: 18px;
+      }
+    }
+  }
+
+  p {
+    margin: 0 auto;
+
+    font-size: 18px;
+  }
+}
